@@ -6,28 +6,44 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link type="text/css" rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:200,400,600,800" rel="stylesheet"> 
     </head>
     <body>
-        <ul class="topnav">
-            <li class="coloredLogo">
-                <img src="./assets/logo-color.svg">
-            </li>
-            <li class="right rightSideNav center">
-                <img class="navIcon" src="./assets/fb-grey.svg">
-                <img class="navIcon" src="./assets/twitter-grey.svg">
-            </li>
-            <li class="right leftSideNav"><a href="#promotions">PROMOTIONS</a></li>
-            <li class="right leftSideNav"><a href="#about">ABOUT</a></li>
-            <li class="right leftSideNav"><a href="#howTo">HOW TO PLAY</a></li>
-            <li class="right leftSideNav"><a href="#home">HOME</a></li>
-        </ul>
+        <div>
+            <ul class="topnav2">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <li class="coloredLogo">
+                        <img src="./assets/logo-color.svg">
+                    </li>
+                </div>
+            </ul>
+            <div class="collapse navbar-collapse"  id="myNavbar">
+                <ul class="nav navbar-nav dis">
+                    <li class="right rightSideNav center">
+                        <img class="navIcon" src="./assets/fb-grey.svg">
+                        <img class="navIcon" src="./assets/twitter-grey.svg">
+                    </li>
+                    <li class="right leftSideNav"><a href="#promotions">PROMOTIONS</a></li>
+                    <li class="right leftSideNav"><a href="#about">ABOUT</a></li>
+                    <li class="right leftSideNav"><a href="#howTo">HOW TO PLAY</a></li>
+                </ul>
+            </div>
+        </div>
 
         <div class="description">
-            <div class="youIn">ARE YOU IN?</div>
-            <div class="wordsDescribe">Data analystics, skill, and strategy. All in the ultimate in-game experience. CoverSharks is primed to be the industry pioneer in a new genre of game play...Team Fantasy Sports.</div>
-            <button class="whiteButton">MORE INFO</button>
-            <div class="pictureIphone">iphone</div>
+            <div class="col-sm-6">
+                <div class="youIn center">ARE YOU IN?</div>
+                <div class="wordsDescribe center">Data analystics, skill, and strategy. All in the ultimate in-game experience. CoverSharks is primed to be the industry pioneer in a new genre of game play...Team Fantasy Sports.</div>
+                <button class="whiteButton">MORE INFO</button>
+            </div>
+            <div class="col-sm-6">
+                <div class="pictureIphone">iphone</div>
+            </div>
         </div>
 
         <div class="register">

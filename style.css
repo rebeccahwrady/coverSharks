@@ -1,13 +1,21 @@
 body {
   margin: 0;
 }
-ul.topnav {
+ul.dis {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #FFFFFF;
   height: 80px;
+}
+.topnav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.icon-bar {
+  background-color: #B7B9BA;
 }
 .coloredLogo {
   height: 57px;
@@ -35,7 +43,7 @@ ul.topnav li {
 ul.topnav li a {
   display: block;
   text-align: center;
-  padding: 29.5px 16px;
+  padding: 27.5px 16px;
   color: #B7B9BA;
   text-decoration: none;
   font-size: 18px;
@@ -56,27 +64,43 @@ ul.topnav li.right {
   }
 }
 .description {
-  background-color: red;
-  height: 100%;
-  width: 100%;
+  max-width: 1500px;
+  height: 500px;
+  background-image: url("assets/coversharks-web-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .youIn {
-  background-color: green;
-  height: 100%;
-  width: 100%;
+  background-color: #0096CF;
+  max-width: 37rem;
+  color: white;
+  font-size: 3em;
+  width: 90%;
+  font-weight: 800;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
 }
 .wordsDescribe {
-  background-color: black;
+  font-size: 1em;
+  color: white;
   height: 100%;
-  width: 100%;
+  width: 75%;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  margin-top: 10px;
+  text-align: center;
 }
 .whiteButton {
-  background-color: orange;
-  height: 100%;
-  width: 100%;
+  background-color: white;
+  height: 50px;
+  width: 170px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  border: 0px;
 }
 .pictureIphone {
-  background-color: pink;
+  background-image: url("assets/coversharks-home-mobile-hero.png");
   height: 100%;
   width: 100%;
 }
@@ -114,7 +138,4 @@ ul.topnav li.right {
   height: 2em;
   width: 2em;
   text-align: center;
-}
-.description {
-  background-image: url("assets/coversharks-web-hero.jpg");
 }
