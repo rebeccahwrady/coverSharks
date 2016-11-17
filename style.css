@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  height: 80px;
+}
+.coloredLogo {
+  height: 57px;
+  width: 220px;
+  padding: 20px 0px 0px 15px;
+}
+.leftSideNav a {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+.rightSideNav {
+  background-color: #F2F3F4;
+  width: 100px;
+  height: 80px;
+  padding: 30px 5px 30px 5px;
+}
+.navIcon {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+ul.topnav li {
+  float: left;
+}
+ul.topnav li a {
+  display: block;
+  text-align: center;
+  padding: 29.5px 16px;
+  color: #B7B9BA;
+  text-decoration: none;
+  font-size: 18px;
+}
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+ul.topnav li a.active {
+  background-color: #4CAF50;
+}
+ul.topnav li.right {
+  float: right;
+}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+.description {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}
+.youIn {
+  background-color: green;
+  height: 100%;
+  width: 100%;
+}
+.wordsDescribe {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+.whiteButton {
+  background-color: orange;
+  height: 100%;
+  width: 100%;
+}
+.pictureIphone {
+  background-color: pink;
+  height: 100%;
+  width: 100%;
+}
+.register {
+  background-color: yellow;
+  height: 100%;
+  width: 100%;
+}
+.appleWatch {
+  background-color: greenyellow;
+  height: 100%;
+  width: 100%;
+}
+.yetiCooler {
+  background-color: deepskyblue;
+  height: 100%;
+  width: 100%;
+}
+.nowReg {
+  background-color: hotpink;
+  height: 100%;
+  width: 100%;
+}
+.winDis {
+  background-color: darkred;
+  height: 100%;
+  width: 100%;
+}
+.registerBut {
+  background-color: darkorchid;
+  height: 100%;
+  width: 100%;
+}
+.whiteLogoSmall {
+  height: 2em;
+  width: 2em;
+  text-align: center;
+}
+.description {
+  background-image: url("assets/coversharks-web-hero.jpg");
+}
