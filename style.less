@@ -4,6 +4,12 @@
 
 body {margin: 0;}
 
+@media only screen and (min-width: 500px){
+    .pictureIphone{
+        background-image: url("coversharks-home-mobile-phone.png");
+    }
+}
+
 ul.dis {
     list-style-type: none;
     margin: 0;
@@ -75,10 +81,23 @@ ul.topnav li.right {float: right;}
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative; 
+}
+
+.overlay{
+    max-width: 1500px;
+    height: 500px;
+    background-image: url("./assets/bkgrnd.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    opacity: 0.5; 
+    filter: alpha(opacity=60);
+    position: relative; 
 }
 
 .youIn{
-    background-color: #0096CF;
     max-width: 37rem;
     color: white;
     font-size: 3em;
@@ -86,9 +105,10 @@ ul.topnav li.right {float: right;}
     font-weight: 800;
     text-align: center;
     font-family: @werk;
+    background-color: #0096CF;
 }
 
-.wordsDescribe{
+.whiteWords{
     font-size: 1em;
     color: white;
     height: 100%;
@@ -97,6 +117,7 @@ ul.topnav li.right {float: right;}
     font-weight: 200;
     margin-top: 10px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .whiteButton{
@@ -105,49 +126,86 @@ ul.topnav li.right {float: right;}
     width: 170px;
     border-radius: 5px;
     font-family: @roboto;
+    font-weight: 200;
+    border: 0px;
+}
+
+.greyButton{
+    background-color: #393A3C;
+    color: white;
+    height: 50px;
+    width: 170px;
+    border-radius: 5px;
+    font-family: @roboto;
+    font-weight: 200;
     border: 0px;
 }
 
 .pictureIphone{
-    background-image: url("./assets/coversharks-home-mobile-hero.png");
-    height: 100%;
-    width: 100%
+    background-image: url("./assets/hero-phone.png");
+    height: 450px;
+    width: 85%;
+    margin: auto;
+    position: absolute;
+    margin-left: 25px;
+    bottom: -500px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .register{
-    background-color: yellow;
-    height: 100%;
-    width: 100%
+    background-color: white;
+    height: 20em;
+    width: 100%;
 }
 
-.appleWatch{
-    background-color: greenyellow;
-    height: 100%;
-    width: 100%
-}
-
-.yetiCooler{
-    background-color: deepskyblue;
-    height: 100%;
-    width: 100%
+.appleYeti{
+    background-image: url("./assets/apple-watch-and-yeti-image.png");
+    height: 20em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .nowReg{
-    background-color: hotpink;
     height: 100%;
-    width: 100%
+    width: 100%;
+    color: #A5ABAE;
+    font-family: @roboto;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
 }
 
-.winDis{
-    background-color: darkred;
+.tealWords{
     height: 100%;
-    width: 100%
+    width: 100%;
+    color: #00C299;
+    font-weight: 800;
+    font-family: @werk;
+    font-size: 35px;
+    text-align: center;
 }
 
-.registerBut{
-    background-color: darkorchid;
+.blueWords{
     height: 100%;
-    width: 100%
+    width: 100%;
+    color: #0096CF;
+    font-weight: 800;
+    font-family: @werk;
+    font-size: 35px;
+    text-align: center;
+}
+
+.smallBlueWords{
+    height: 100%;
+    width: 100%;
+    color: #0096CF;
+    font-weight: 800;
+    font-family: @werk;
+    font-size: 15px;
+    text-align: center;
 }
 
 .whiteLogoSmall{
@@ -156,5 +214,58 @@ ul.topnav li.right {float: right;}
     text-align: center;
 }
 
+.playTime{
+    background-image: url("./assets/bkgrnd.svg");
+    max-width: 1500px;
+    height: 30em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+.floatingPhone{
+    background-image: url("./assets/tilted-phone.png");
+    height: 30em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.floatingPhoneHolder{
+    height: 90%;
+    width: 90%;
+}
+
+.overview{
+    background-color: #F2F3F4;
+    max-width: 1500px;
+    max-height: 1000px;
+}
+
+.gameScreen{
+
+}
+
+.dataScreen{
+
+}
+
+.skillScreen{
+
+}
+
+.darkGreyWords{
+    
+}
+
+.lightGreyWords{
+
+}
+
+.col-sm-4{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #888888;
+}
